@@ -11,6 +11,8 @@ import {
 } from "react-native";
 import axios from "axios";
 
+//
+
 function App() {
   const [timezones, setTimezones] = useState([]);
   const [loading, setLoading] = useState(true);
